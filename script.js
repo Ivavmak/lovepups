@@ -31,7 +31,7 @@ function createHeart(count) {
         const heartDiv = document.createElement('div');
         heartDiv.className = 'heart';
         
-        heartDiv.innerHTML = '<img src="g7034.png" alt="❤️">';
+        heartDiv.innerHTML = '❤️';
         
         const phraseLink = document.createElement('a');
         phraseLink.innerHTML = getRandomPhrase();
